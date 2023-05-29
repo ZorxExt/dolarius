@@ -1,0 +1,97 @@
+:root{
+
+}
+
+
+/* GLOBALES */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    
+}
+
+
+h2{
+
+}
+
+h3{
+
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* FORMULARIO */
+
+
+.section__contact{
+    text-align: center;
+    background-color: blanchedalmond;
+    
+    padding: 10rem;
+}
+
+.formulario{
+    background-color: rgb(187, 179, 86);
+    padding: 5rem;
+    border-radius: 5rem;
+    
+}
+
+.formulario__fieldset{
+    border: none;
+}
+
+
+.formulario__fieldset legend {
+
+
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+
+
+.campo{
+    margin-bottom: 1rem;
+}
+
+
+.campo label{
+
+        margin-right: 0.5rem;
+        color: rgba(255, 255, 255, 0.892);
+        font-family: 'Alkatra', cursive;
+        font-weight: bold;
+        font-size: 1.3rem;
+
+}
+
+.campo input{
+    max-width: 100%;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    background-color: blanchedalmond;
+}
+
+
+
+
+
+
+
+.boton{
+    margin-top: 3rem;
+    border-radius: 1rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
