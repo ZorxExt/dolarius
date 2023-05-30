@@ -27,71 +27,111 @@ a{
     text-decoration: none;
 }
 
+.container__body__login{
+    background-color: green;
+}
 
+
+/* NAV BAR */
+
+.container_navbar{
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+
+.back_init{
+    margin: 1rem;
+    max-width: 8%;
+    background-color: red;
+}
+
+
+.inicio_de_sesion{
+    font-size: 0.5rem;
+}
 
 /* FORMULARIO */
 
 
 .section__contact{
-    text-align: center;
-    background-color: blanchedalmond;
-    
-    padding: 10rem;
+background-color: green;
 }
 
-.formulario{
-    background-color: rgb(187, 179, 86);
-    padding: 5rem;
-    border-radius: 5rem;
+.form{
+
     
 }
 
-.formulario__fieldset{
-    border: none;
+.form__fieldset{
+border: none;
+
 }
 
 
-.formulario__fieldset legend {
-
-
-        font-size: 1.8rem;
-        font-weight: 700;
-        margin-bottom: 1rem;
+.form__fieldset legend {
+    
     }
 
 
 
 .campo{
-    margin-bottom: 1rem;
-}
-
-
-.campo label{
-
-        margin-right: 0.5rem;
-        color: rgba(255, 255, 255, 0.892);
-        font-family: 'Alkatra', cursive;
-        font-weight: bold;
-        font-size: 1.3rem;
+text-align: center;
+margin: 1rem 0 1rem 0;
 
 }
+
+
+
 
 .campo input{
-    max-width: 100%;
-    border-radius: 2rem;
-    font-size: 1.5rem;
-    background-color: blanchedalmond;
+border-radius: 10px;
+color: #000;
+font-size: 1rem;
+padding: .4rem;
+font-weight: bold;
+
+}
+
+.pasword{
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+
+.pasword input{
+    border-radius: 10px;
+color: #000;
+font-size: 1rem;
+padding: .4rem;
+font-weight: bold;
 }
 
 
 
 
 
+.button{
+background-color: white;
+padding: .4rem;
+border-radius: 5rem;
+text-align: center;
+}
 
+.button a{
+    color: black;
+    
+}
 
-.boton{
-    margin-top: 3rem;
-    border-radius: 1rem;
-    font-size: 1.8rem;
-    text-decoration: none;
+.container__remember{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+.remember__pasword{
+    margin-top: 0;
+    font-size: .5rem;
+    text-decoration:underline;
+    color: white;
 }
