@@ -27,35 +27,39 @@ a{
     text-decoration: none;
 }
 
-.container__body__login{
-    background-color: green;
+body{
+    background: linear-gradient(180deg, #043927 0%, #001E14 100%);
 }
+/* .container__body__login{
+    background: linear-gradient(180deg, #043927 0%, #001E14 100%);
+} */
 
 
 /* NAV BAR */
 
 .container_navbar{
+    margin-top: 1rem;
     display: flex;
+    gap: 1rem;
     margin-bottom: 5rem;
 }
 
 
-.back_init{
-    margin: 1rem;
-    max-width: 8%;
-    background-color: red;
+.back__arrow{
+    margin-left: .5rem;
 }
 
 
 .inicio_de_sesion{
     font-size: 0.5rem;
+    color: aliceblue;
 }
 
 /* FORMULARIO */
 
 
 .section__contact{
-background-color: green;
+
 }
 
 .form{
@@ -85,10 +89,11 @@ margin: 1rem 0 1rem 0;
 
 
 .campo input{
+    text-align: center;
 border-radius: 10px;
 color: #000;
 font-size: 1rem;
-padding: .4rem;
+padding: .4rem 20%;
 font-weight: bold;
 
 }
@@ -100,10 +105,11 @@ font-weight: bold;
 }
 
 .pasword input{
-    border-radius: 10px;
+text-align: center;
+border-radius: 10px;
 color: #000;
 font-size: 1rem;
-padding: .4rem;
+padding: .4rem 20%;
 font-weight: bold;
 }
 
@@ -112,14 +118,15 @@ font-weight: bold;
 
 
 .button{
-background-color: white;
-padding: .4rem;
-border-radius: 5rem;
 text-align: center;
+margin-top: 3rem;
 }
 
 .button a{
     color: black;
+    background-color: white;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
     
 }
 
@@ -134,4 +141,14 @@ text-align: center;
     font-size: .5rem;
     text-decoration:underline;
     color: white;
+}
+
+
+/* aparte del login */
+
+.container__login{
+    display: flex;
+    
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
 }

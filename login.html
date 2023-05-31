@@ -1,57 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet" href="./style/login.css">
-    <title>Document</title>
+    <title>LOGIN</title>
 </head>
+
 <body>
     <div class="container__body__login">
-    <header class="container_navbar">
-        <a href="#"><svg class="back_init" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g id="arrow-left"> <g> <polyline data-name="Right" fill="none" id="Right-2" points="7.6 7 2.5 12 7.6 17" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline> <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="21.5" x2="4.8" y1="12" y2="12"></line> </g> </g> </g> </g></svg></a>
-        <a href="#" class="inicio_de_sesion"><h1>INICIO DE SESION</h1></a>
-    </header>
+        <header class="container_navbar">
+            <a href="./start.html" class="back__arrow"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 20L0 10L10 0L11.7812 1.75L4.78125 8.75H20V11.25H4.78125L11.7812 18.25L10 20Z" fill="#4B4B4B"/>
+                </svg>
+                </a>
+            <a href="#" class="inicio_de_sesion">
+                <h1>INICIO DE SESION</h1>
+            </a>
+        </header>
 
-    <main>
-        <section class="section__contact">
-            <form class="form">
-                <fieldset class="form__fieldset">
-
-                    
-                    <div class="campos">
-                    <div class="campo ">
-                        <input type="text" placeholder="EMAIL">
-                    </div>
-
-                    <div class="pasword">
-                        <input type="text" placeholder="CONTRASEÑA">
-                    </div>
-                    <div class="container__remember">
-                    <a href="#" class="remember__pasword">OLVIDE MI CONTRASEÑA</a>
-                </div>
-                    <div>
-                    <a href="#">SVG FACEBOOK</a>
-                    <a href="#">SVG GOOGLE</a>
-                    <a href="#">SVG TWITTER</a>
-                    </div>
-                    <div class="button">
-                        <a href="#">INICIAR SESION</a>
-                    </div>
-                </div>
-                </fieldset>
+        <main>
+            <section class="section__contact">
+                <form class="form">
+                    <fieldset class="form__fieldset">
 
 
-            </form>
-    </main>
+                        <div class="campos">
+                            <div class="campo ">
+                                <input type="text" placeholder="EMAIL">
+                            </div>
+
+                            <div class="pasword">
+                                <input type="text" placeholder="CONTRASEÑA">
+                            </div>
+                            <div class="container__remember">
+                                <a href="#" class="remember__pasword">OLVIDE MI CONTRASEÑA</a>
+                            </div>
+                            <div class="container__login">
+                                <a class="login__facebook" href="#">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="20" cy="20" r="19.5" stroke="white"/>
+                                        <path d="M17.5528 30V20.1462H15V16.5983H17.5528V13.568C17.5528 11.1868 19.0607 9 22.5353 9C23.9421 9 24.9824 9.13765 24.9824 9.13765L24.9004 12.4507C24.9004 12.4507 23.8395 12.4402 22.6818 12.4402C21.4288 12.4402 21.228 13.0296 21.228 14.0078V16.5983H25L24.8359 20.1462H21.228V30H17.5528Z" fill="white"/>
+                                        </svg>
+                                        
+                                    </a>
+
+                                <a class="login__twitter" href="#">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="20" cy="20" r="19.5" stroke="white"/>
+                                        <path d="M27.1631 18.4998C27.2626 19.0354 27.3168 19.5953 27.3168 20.1796C27.3168 24.7501 24.2714 28 19.6717 28C18.6257 28.0003 17.5898 27.7936 16.6234 27.3917C15.6569 26.9898 14.7788 26.4005 14.0391 25.6576C13.2995 24.9146 12.7128 24.0326 12.3127 23.0618C11.9125 22.0911 11.7067 21.0507 11.707 20C11.7067 18.9493 11.9125 17.9089 12.3127 16.9382C12.7128 15.9674 13.2995 15.0854 14.0391 14.3424C14.7788 13.5995 15.6569 13.0102 16.6234 12.6083C17.5898 12.2064 18.6257 11.9997 19.6717 12C21.8223 12 23.6193 12.7948 24.9979 14.0853L22.7527 16.3405V16.3348C21.9169 15.5351 20.8562 15.1247 19.6717 15.1247C17.0438 15.1247 14.9078 17.3547 14.9078 19.9951C14.9078 22.6347 17.0438 24.8696 19.6717 24.8696C22.0561 24.8696 23.6791 23.5002 24.0125 21.6197H19.6717V18.4998H27.1639H27.1631Z" fill="white"/>
+                                        </svg>
+                                        
+                                    </a>
+                                <a class="login__google" href="#">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="20" cy="20" r="19.5" stroke="white"/>
+                                    <path d="M16.2825 28C23.83 28 27.9587 21.8428 27.9587 16.5126C27.9587 16.3403 27.9588 16.1656 27.9513 15.9933C28.7551 15.4203 29.4488 14.711 30 13.8986C29.2491 14.2246 28.4535 14.4394 27.6388 14.5361C28.4969 14.0311 29.1397 13.2364 29.4475 12.2999C28.6412 12.7702 27.7588 13.1003 26.8387 13.2759C26.2202 12.6273 25.4018 12.1977 24.5101 12.0535C23.6185 11.9093 22.7034 12.0586 21.9067 12.4783C21.1099 12.898 20.476 13.5646 20.1031 14.375C19.7301 15.1853 19.639 16.0941 19.8438 16.9606C18.2122 16.88 16.616 16.4627 15.1588 15.7357C13.7016 15.0087 12.4159 13.9882 11.385 12.7405C10.8617 13.6304 10.702 14.683 10.9383 15.6847C11.1746 16.6863 11.7893 17.5618 12.6575 18.1334C12.0069 18.1117 11.3707 17.9397 10.8 17.6313V17.6867C10.8011 18.6189 11.1291 19.5222 11.7286 20.2438C12.3281 20.9654 13.1622 21.4611 14.09 21.6471C13.7378 21.7426 13.374 21.7902 13.0088 21.7886C12.7512 21.7894 12.4942 21.7659 12.2412 21.7185C12.5035 22.521 13.0141 23.2226 13.7016 23.7251C14.389 24.2276 15.2189 24.5058 16.075 24.5208C14.6207 25.6454 12.8243 26.2554 10.975 26.2524C10.6492 26.2538 10.3235 26.2353 10 26.197C11.8769 27.3751 14.0566 28.0007 16.2825 28V28Z" fill="white"/>
+                                    </svg>
+                                    </a>
+                            </div>
+                            <div class="button">
+                                <a href="#">INICIAR SESION</a>
+                            </div>
+                        </div>
+                    </fieldset>
+
+
+                </form>
+        </main>
 
 
 
 
+    </div>
 
-    
 </body>
-</div>
+
+
 </html>
